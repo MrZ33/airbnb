@@ -161,7 +161,7 @@ h1
 nav
 {
   height: 100px;
-  width: 90%;
+  width: 98%;
   white-space: nowrap;
   padding: 68px 10px 0px 17px;
   display: flex;
@@ -181,6 +181,7 @@ nav a
   font-size: 11px;
   margin-right: 16px;
   letter-spacing: 0.9px;
+
 
 }
 
@@ -209,6 +210,20 @@ nav i
   margin-right: 24px;
 }
 
+#wblock
+{
+  border: 0px;
+  padding: 0px;
+  position: absolute;
+  display: inline;
+  height: 21px;
+  vertical-align: top;
+  width: 40px;
+  right: -21px;
+  margin-right: 24px;
+  background: white;
+}
+
 #gradient
 {
   border: 0px;
@@ -218,7 +233,7 @@ nav i
   height: 21px;
   vertical-align: top;
   width: 40px;
-  right: 6px;
+  right: 14px;
   margin-right: 24px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0 ), #ffffff);
 }
