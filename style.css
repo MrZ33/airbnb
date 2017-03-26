@@ -18,6 +18,7 @@ body
 {
     font-family: "circular";
     color: #484848;
+    margin: 0 auto;
 }
 
     /** Columns **/
@@ -83,7 +84,7 @@ figure
 {
   display: flex;
   align-items: center;
-  margin-left: 17px;
+  margin-left: 26px;
 }
 
 #logo
@@ -96,7 +97,7 @@ figure
 {
   width: 25px;
   opacity: 0.5;
-  padding-left: 6px;
+  padding-left: 4px;
 }
       /** END **/
 
@@ -111,13 +112,13 @@ h1 span
 
 h1
 {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 100;
-  padding-left: 17px;
+  padding-left: 26px;
   padding-top: 24px;
-  padding-right: 35px;
+  padding-right: 45px;
   margin: 0 auto;
-  margin-bottom: 2em;
+  margin-bottom: 2.1em;
 }
       /** H1 END **/
 
@@ -126,17 +127,17 @@ h1
   position: relative;
   font-size: 16px;
   margin: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .search input {
-  height: 41px;
+  height: 43px;
   border: 1px solid rgb(210, 210, 210);
   border-radius: 4px;
   text-overflow: ellipsis;
   overflow: hidden;
-  text-indent: 40px;
+  text-indent: 38px;
   width: 100%;
   font-size: 15px;
   line-height: 18px;
@@ -153,7 +154,7 @@ h1
   position: absolute;
   top: 10px;
   left: 10px;
-  text-indent: 19px;
+  text-indent: 26px;
 }
       /** SEARCHBAR END **/
 
@@ -163,7 +164,7 @@ nav
   height: 100px;
   width: 98%;
   white-space: nowrap;
-  padding: 68px 10px 0px 17px;
+  padding: 64px 10px 0px 26px;
   display: flex;
   display: block;
   margin: auto;
@@ -189,13 +190,13 @@ nav a span
 {
   color: #008489;
   border-bottom: 2px solid #008489;
-  padding-bottom: 12px;
+  padding-bottom: 13px;
 }
 
 hr
 {
   opacity: 0.3;
-  margin-top: 10px;
+  margin-top: 11px;
   z-index: -1;
 }
 
@@ -236,4 +237,33 @@ nav i
   right: 14px;
   margin-right: 24px;
   background: linear-gradient(to right, rgba(255, 255, 255, 0 ), #ffffff);
+}
+      /** NAVBAR END **/
+
+      /** H2 **/
+
+h2
+{
+  font-size: 19px;
+  font-weight: 100;
+  padding-left: 26px;
+  margin: 46px 0 24px 0;
+}
+
+section
+{
+  display: flex;
+  justify-content: flex-start;
+  margin: 100% auto;
+  overflow: scroll;
+  margin-left: 0;
+}
+
+section img
+{
+  width: 50%;
+  height: 50%;
+  padding-left: 17px;
+  padding-right: 6px;
+
 }
