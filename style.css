@@ -80,26 +80,30 @@ body
       /** Logo **/
 
 figure
-  {
+{
   display: flex;
   align-items: center;
   margin-left: 17px;
-  }
+}
 
 #logo
-  {
+{
   width: 31px;
   height: 31px;
-  }
+}
 
 #darrow
-  {
+{
   width: 25px;
   opacity: 0.5;
   padding-left: 6px;
-  }
+}
       /** END **/
-span
+
+      /** HEADER**/
+
+      /** H1 **/
+h1 span
 {
   color: #FF5A5F;
   font-weight: 700;
@@ -107,7 +111,7 @@ span
 
 h1
 {
-  font-size: 25px !important;
+  font-size: 25px;
   font-weight: 100;
   padding-left: 17px;
   padding-top: 24px;
@@ -115,12 +119,15 @@ h1
   margin: 0 auto;
   margin-bottom: 2em;
 }
+      /** H1 END **/
 
+      /** SEARCHBAR **/
 .search {
   position: relative;
   font-size: 16px;
   margin: auto;
-  width: 90%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .search input {
@@ -134,7 +141,7 @@ h1
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.2px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .material-icons.grey {
   color: rgb(180, 180, 180);
@@ -146,4 +153,72 @@ h1
   position: absolute;
   top: 10px;
   left: 10px;
+  text-indent: 19px;
+}
+      /** SEARCHBAR END **/
+
+      /** NAVBAR **/
+nav
+{
+  height: 100px;
+  width: 90%;
+  white-space: nowrap;
+  padding: 68px 10px 0px 17px;
+  display: flex;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin-right: 80px;
+
+}
+
+nav a
+{
+  text-decoration: none;
+  color: #767676;
+  font-weight: 600;
+  font-size: 11px;
+  margin-right: 16px;
+  letter-spacing: 0.9px;
+
+}
+
+nav a span
+{
+  color: #008489;
+  border-bottom: 2px solid #008489;
+  padding-bottom: 12px;
+}
+
+hr
+{
+  opacity: 0.3;
+  margin-top: 10px;
+  z-index: -1;
+}
+
+nav i
+{
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: -5px;
+  margin-right: 24px;
+}
+
+#gradient
+{
+  border: 0px;
+  padding: 0px;
+  position: absolute;
+  display: inline;
+  height: 21px;
+  vertical-align: top;
+  width: 40px;
+  right: 6px;
+  margin-right: 24px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
 }
