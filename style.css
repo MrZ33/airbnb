@@ -80,7 +80,7 @@ body
 
       /** Logo **/
 
-figure
+.logo
 {
   display: flex;
   align-items: center;
@@ -253,8 +253,8 @@ h2
       /** H2 END **/
 
 
-      /** IMAGEs SLIDER **/
-section
+      /** IMAGES SLIDER 1 & 2 **/
+.s1
 {
   display: flex;
   white-space: nowrap;
@@ -264,40 +264,255 @@ section
 }
 
 
-section .imgboxstart
+.s1 .imgboxstart
 {
   margin-left: 25px;
-  width: 50%;
+  width: 40%;
+  display: inline;
 }
 
-section .imgboxstart img
+.s1 .imgboxstart img
 {
   max-width: 100%;
 
 }
 
-section .imgboxstart p
+.s1 .imgboxstart p
 {
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-section .imgbox
+.s1 .imgboxstart .rate
 {
-  margin-left: 15px;
-  width: 50%;
+  display: flex;
 }
 
-section .imgbox img
+.s1 .imgboxstart .material-icons
+{
+  font-size: 16px;
+  width: 15px;
+  height: 10px;
+  color: #00A699;
+}
+
+.s1 .imgboxstart .rate p
+{
+  margin: 0 auto;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.s1 .imgbox
+{
+  margin-left: 12px;
+  width: 40%;
+}
+
+.s1 .imgbox img
 {
   max-width: 100%;
 }
 
-section .imgbox p
+.s1 .imgbox p
 {
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-      /** IMAGES SLIDER END **/
+.s1 .imgbox .rate
+{
+  display: flex;
+}
+
+.s1 .imgbox .material-icons
+{
+  font-size: 16px;
+  width: 15px;
+  height: 10px;
+  color: #00A699;
+}
+
+.s1 .imgbox .rate p
+{
+  margin: 0 auto;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+      /** IMAGES SLIDER 1 & 2 END **/
+
+      /** IMAGES SLIDER 3 **/
+
+.s2
+{
+  display: flex;
+  white-space: nowrap;
+  overflow: auto;
+  margin-left: 0;
+  width: 100%;
+}
+
+
+.s2 .imgboxstart
+{
+  margin-left: 25px;
+  width: 60%;
+  display: inline;
+}
+
+.s2 .imgboxstart img
+{
+  max-width: 100%;
+
+}
+
+.s2 .imgboxstart p
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.s2 .imgboxstart .rate
+{
+  display: flex;
+}
+
+.s2 .imgboxstart .material-icons
+{
+  font-size: 16px;
+  width: 15px;
+  height: 10px;
+  color: #00A699;
+}
+
+.s2 .imgboxstart .rate p
+{
+  margin: 0 auto;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.s2 .imgbox
+{
+  margin-left: 12px;
+  width: 60%;
+}
+
+.s2 .imgbox img
+{
+  max-width: 100%;
+}
+
+.s2 .imgbox p
+{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.s2 .imgbox .rate
+{
+  display: flex;
+}
+
+.s2 .imgbox .material-icons
+{
+  font-size: 16px;
+  width: 15px;
+  height: 10px;
+  color: #00A699;
+}
+
+.s2 .imgbox .rate p
+{
+  margin: 0 auto;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+        /** SLIDER IMAGES 3 END **/
+
+        /*** SLIDER IMAGES 4 **/
+
+.s3
+{
+  display: flex;
+  white-space: nowrap;
+  overflow: auto;
+  margin-left: 0;
+  width: 100%;
+}
+
+
+.s3 .imgboxstart
+{
+  margin-left: 25px;
+  width: 25%;
+  display: inline;
+}
+
+.s3 .imgboxstart img
+{
+  max-width: 100%;
+
+}
+
+.s3 .imgboxstart p
+{
+  overflow: hidden;
+  white-space: pre;
+  font-weight: bolder;
+}
+
+.s3 .imgbox
+{
+  margin-left: 12px;
+  width: 25%;
+}
+
+.s3 .imgbox img
+{
+  max-width: 100%;
+}
+
+.s3 .imgbox p
+{
+  overflow: hidden;
+  white-space: pre;
+  font-weight: bolder;
+}
+
+        /** SlIDER IMAGES 4 END **/
+
+        /** SECTION 5 **/
+
+.wall5
+{
+  margin: 0;
+  margin-top: 48px;
+}
+
+.wall5 img
+{
+  max-width: 100%;
+}
+
+.ps5
+{
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  margin: 28px 25px 0 25px;
+}
+
+.ps52
+{
+  font-size: 19px;
+  font-weight: 100;
+  margin: 15px 25px 0 25px;
+  line-height: 24px;
+}
 
 /** oLD
 section
