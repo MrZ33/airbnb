@@ -266,31 +266,38 @@ section
 
 section .imgboxstart
 {
-  padding-left: 25px;
+  margin-left: 25px;
+  width: 50%;
 }
 
 section .imgboxstart img
 {
   max-width: 100%;
-  height: 50%;
+
+}
+
+section .imgboxstart p
+{
+  overflow: hidden;
 }
 
 section .imgbox
 {
-  margin-left: 45px;
-
+  margin-left: 15px;
+  width: 50%;
 }
 
 section .imgbox img
 {
-  max-width: 130%;
-  height: 50%;
+  max-width: 100%;
 }
 
-section div p
+section .imgbox p
 {
   overflow: hidden;
 }
+
+      /** IMAGES SLIDER END **/
 
 /** oLD
 section
